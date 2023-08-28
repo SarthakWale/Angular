@@ -1,0 +1,59 @@
+input{
+outline-color:red ;
+}
+.form-container {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #d5eef1;
+  }
+
+  .form-container label {
+    font-weight: bold;
+  }
+
+  .form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .form-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .form-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .form-container .btn {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .form-container .reset-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .form-container .reset-button:hover {
+    background-color: #d32f2f;
+  }
+
+  .error-message {
+    color: red;
+  }
